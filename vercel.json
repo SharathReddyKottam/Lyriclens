@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/api/lyrics", "dest": "/api/lyrics.js" },
+    { "src": "/api/meaning", "dest": "/api/meaning.js" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
